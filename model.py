@@ -1,6 +1,6 @@
 def model(system_prompt="", user_prompt=""):
     from openai import OpenAI
-    model = OpenAI(api_key = "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")
+    model = OpenAI()
 
     completion = model.chat.completions.create(
         model="gpt-4o-mini",

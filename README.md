@@ -13,6 +13,10 @@ To use Super Flashcards Python, follow these steps:
     ```
     pip install -r requirements.txt
     ```
+4. Make sure to set the OPENAI_API_KEY envrionmental variable
+    ```
+    OPENAI_API_KEY = "your_api_key"
+    ```
 
 ## Usage
 
@@ -21,11 +25,3 @@ To create and study flashcards, run the following command:
 ```
 python main.py
 ```
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, please submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
