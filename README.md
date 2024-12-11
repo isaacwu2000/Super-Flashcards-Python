@@ -1,6 +1,6 @@
 # Super Flashcards Python
 
-Welcome to Super Flashcards Python! This is a command-line tool designed to help you create and study flashcards in Python.
+Welcome to Super Flashcards Python! This is a command-line tool designed to help you create and study flashcards using AI in Python.
 
 ## Installation
 
@@ -11,8 +11,9 @@ To use Super Flashcards Python, follow these steps:
 3. Run the following command to install the required dependencies:
 
     ```
-    pip install -r requirements.txt
+    pip install openai
     ```
+4. Create an environmental video in the format: OPENAI_API_KEY = "your_api_key_here"
 
 ## Usage
 
@@ -21,11 +22,3 @@ To create and study flashcards, run the following command:
 ```
 python main.py
 ```
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, please submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
